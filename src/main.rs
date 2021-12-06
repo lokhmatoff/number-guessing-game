@@ -7,8 +7,7 @@ const ERROR_MESSAGE: &str = "Не удалось прочитать информ
 fn main() {
     let secret_number = rand::thread_rng().gen_range(1..21);
     print_headline();
-    println!("Секретное число — {}", secret_number);
-
+    
     loop {
         println!("А теперь попробуйте ввести свое предположение");
         
